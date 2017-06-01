@@ -35,4 +35,3 @@
         ("^[ \t]+"                    (sc-mail-append-field))
         (sc-mail-warn-if-non-rfc822-p (sc-mail-error-in-mail-field))
         (end                          (setq sc-mail-headers-end (point)))))
-
